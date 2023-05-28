@@ -29,6 +29,14 @@ body {
   min-height: 100vh;
 }
 
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 button{
   cursor: pointer;
   height: 40px;
@@ -39,4 +47,7 @@ button{
 }
 button:hover{
   opacity: 0.8;
+}
+button:disabled{
+  cursor: auto;
 }
